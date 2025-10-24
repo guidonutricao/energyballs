@@ -42,19 +42,25 @@ const AboutUs = () => {
                 <div className="grid md:grid-cols-2 gap-12 items-center">
                   <div className="space-y-6">
                     <h2 className="text-3xl md:text-4xl font-bold">
-                      Nossa{" "}
+                      Quem{" "}
                       <span className="bg-gradient-to-r from-primary via-amber-500 to-accent bg-clip-text text-transparent">
-                        Missão
+                        Somos?
                       </span>
                     </h2>
                     <p className="text-lg text-muted-foreground leading-relaxed">
-                      Somos estudantes de Nutrição da UNIP apaixonados por alimentação saudável e funcional. 
-                      Criamos as Energy Balls como parte de um projeto acadêmico, com o objetivo de oferecer 
-                      uma alternativa nutritiva e deliciosa aos doces tradicionais.
+                      A curiosidade e o entusiasmo fizeram com que 5 estudantes de nutrição apaixonados por saúde,
+                      nutrição e Atividade Física se unissem e pensassem em um alimento que fornecesse energia,
+                      mas elaborado a partir de elementos simples, tais como tâmaras, cacau em pó e farinha de linhaça.
                     </p>
                     <p className="text-lg text-muted-foreground leading-relaxed">
-                      Acreditamos que é possível unir prazer e saúde em cada mordida, utilizando apenas 
-                      ingredientes naturais e de alta qualidade nutricional.
+                      Nossos anos de estudo conversas e pesquisas, nos fez pensar e elaborar algo que fosse agradável
+                      ao paladar, sem o exagero de açúcar adicionado dos doces encontrados nas prateleiras dos mercados
+                      e que fornecesse energia para quando a exaustão te alcança na academia ou em situações naquelas
+                      que surge a vontade de um docinho.
+                    </p>
+                    <p className="text-lg text-muted-foreground leading-relaxed">
+                      Criamos um alimento diferenciado sem adição de açúcar e gordura com apenas 3 ingredientes que
+                      homogeneizados compõem o ENERGY BALLS.
                     </p>
                   </div>
                   <div className="relative">
