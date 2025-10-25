@@ -8,6 +8,7 @@ import productJar from "@/assets/product-jar.png";
 const navLinks = [
   { title: "Início", path: "/" },
   { title: "Quem Somos", path: "/quem-somos" },
+  { title: "Conheça o Produto", path: "/conheca-energy-balls" },
   { title: "Receita", path: "/receita" },
   { title: "Referências", path: "/referencias" },
   { title: "Contato", path: "/contato" },
