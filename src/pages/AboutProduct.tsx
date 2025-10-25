@@ -66,6 +66,9 @@ const AboutProduct = () => {
                   {/* Video Container */}
                   <div className="relative aspect-video rounded-xl overflow-hidden shadow-2xl bg-muted">
                     <video
+                      autoPlay
+                      muted
+                      playsInline
                       controls
                       className="w-full h-full object-cover"
                       poster="/placeholder.svg"
