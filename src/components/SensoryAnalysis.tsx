@@ -4,9 +4,11 @@ import { motion } from "framer-motion";
 
 const SensoryAnalysis = () => {
   const ratings = [
-    { label: "Doçura", value: 4.5, emoji: "🍯" },
-    { label: "Textura", value: 4.7, emoji: "✨" },
-    { label: "Sabor Geral", value: 4.8, emoji: "😋" },
+    { label: "Aparência", value: 4.05, emoji: "👁️" },
+    { label: "Aroma", value: 4.00, emoji: "👃" },
+    { label: "Textura", value: 4.23, emoji: "✨" },
+    { label: "Doçura", value: 4.23, emoji: "🍯" },
+    { label: "Acidez", value: 4.00, emoji: "🍋" },
   ];
 
   return (

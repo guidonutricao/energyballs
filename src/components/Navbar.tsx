@@ -26,6 +26,11 @@ const Navbar = () => {
     setIsOpen(false);
   };
 
+  const handleNavClick = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    setIsOpen(false);
+  };
+
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <nav className="container mx-auto px-4">
@@ -44,6 +49,7 @@ const Navbar = () => {
               <Link
                 key={link.path}
                 to={link.path}
+                onClick={handleNavClick}
                 className={`text-sm font-medium transition-colors hover:text-primary ${
                   location.pathname === link.path
                     ? "text-primary"
@@ -90,7 +96,7 @@ const Navbar = () => {
                   <Link
                     key={link.path}
                     to={link.path}
-                    onClick={() => setIsOpen(false)}
+                    onClick={handleNavClick}
                     className={`block py-2 text-base font-medium transition-colors hover:text-primary ${
                       location.pathname === link.path
                         ? "text-primary"
