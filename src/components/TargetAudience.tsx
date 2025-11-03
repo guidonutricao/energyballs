@@ -26,8 +26,8 @@ const audiences = [
 ];
 
 const TargetAudience = () => {
-  const scrollToRecipe = () => {
-    const element = document.getElementById("receita");
+  const scrollToCTA = () => {
+    const element = document.getElementById("comprar");
     element?.scrollIntoView({ behavior: "smooth" });
   };
 
@@ -127,7 +127,7 @@ const TargetAudience = () => {
           >
             <Button
               size="lg"
-              onClick={scrollToRecipe}
+              onClick={scrollToCTA}
               className="bg-gradient-to-r from-primary to-accent hover:shadow-[0_0_30px_hsl(var(--primary-glow)/0.5)] transition-all duration-300 text-lg px-10 py-6 rounded-full"
             >
               Quero experimentar! 🎉

@@ -3,8 +3,8 @@ import { motion } from "framer-motion";
 import productJar from "@/assets/product-jar.png";
 
 const Hero = () => {
-  const scrollToSection = (id: string) => {
-    const element = document.getElementById(id);
+  const scrollToCTA = () => {
+    const element = document.getElementById("comprar");
     element?.scrollIntoView({ behavior: "smooth" });
   };
 
@@ -69,7 +69,7 @@ const Hero = () => {
             >
               <Button
                 size="lg"
-                onClick={() => scrollToSection("receita")}
+                onClick={scrollToCTA}
                 className="bg-gradient-to-r from-primary to-accent hover:shadow-[0_0_40px_hsl(var(--primary-glow)/0.6)] transition-all duration-300 text-xl px-12 py-8 rounded-full font-semibold"
               >
                 Quero Conhecer

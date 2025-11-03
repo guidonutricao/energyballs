@@ -2,7 +2,6 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import WhyChoose from "@/components/WhyChoose";
 import TargetAudience from "@/components/TargetAudience";
-import Recipe from "@/components/Recipe";
 import Benefits from "@/components/Benefits";
 import SensoryAnalysis from "@/components/SensoryAnalysis";
 import CTA from "@/components/CTA";
@@ -15,7 +14,6 @@ const Index = () => {
       <Hero />
       <WhyChoose />
       <TargetAudience />
-      <Recipe />
       <Benefits />
       <SensoryAnalysis />
       <CTA />
