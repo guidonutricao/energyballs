@@ -15,8 +15,8 @@ const features = [
   },
   {
     icon: Clock,
-    title: "Fácil de Fazer",
-    description: "Receita simples que você prepara em casa em poucos minutos.",
+    title: "Prático e Rápido",
+    description: "Pronto para consumir a qualquer hora, em qualquer lugar. Perfeito para o seu dia a dia.",
   },
   {
     icon: Zap,
